@@ -3,5 +3,12 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 
+const rootElement = document.getElementById("root")
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = createRoot(rootElement);
+
+
+root.Rendar(
+  <App/>
+
+);
