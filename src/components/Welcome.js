@@ -6,8 +6,7 @@ function Welcome(props){
     return(
         <>
     <h1>Hey ! {student} </h1>
-        <h2>Welcome to Newton School</h2>
-        
+        <h2>Welcome to Newton School</h2>   
     </>
     )
     
