@@ -3,9 +3,10 @@ import React from "react";
 import Welcome from "./Welcome";
 
 const App = () => {
+  let name = "mayur"
   return (
     
-      <Welcome name="mayur" />
+      <Welcome name={name} />
     
   );
 };
